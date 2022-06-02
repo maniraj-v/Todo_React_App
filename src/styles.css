@@ -1,0 +1,35 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.item-container{
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.item{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(243, 238, 230,0.8);
+  margin: 0rem 3rem;
+  margin-bottom: 1rem;
+  padding: 0.1rem 1rem;
+  text-transform: capitalize;
+}
+
+.icon{
+  margin-left: 0.5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.icon.del:hover{
+  color: rgb(206, 26, 26);
+}
+
+.icon.edit:hover{
+  color: rgb(6, 168, 14);
+}
